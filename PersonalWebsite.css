@@ -1,3 +1,12 @@
+body {
+    background: url(images/greyred.jpg) no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    font-family: Arial;
+    color: aliceblue;
+}
+
+/*** Navigation Bar **/
 ul{
   list-style-type: none;
   margin: 0;
@@ -12,11 +21,88 @@ li {
 
 li a{
     display: block;
-    color: white;
-    padding: 4px 8px;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 10px;
     text-transform: none;
 }
 
 li a:hover {
-    background-color: antiquewhite;
+    background-color: #9d2828;
 }
+
+.port-nav {
+    
+}
+
+/*** Pictures **/
+.art {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+
+}
+
+.hbhtml {
+    float: left;
+    width: 
+}
+
+.careerpic {
+    float: left
+}
+
+.w1 {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    
+}
+
+.w2 {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.w3 {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.cw {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 
+}
+
+.hb{
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 
+}
+
+/*** Text **/
+.txt-r {
+    padding-left: 10%;
+    padding-right: 10%;
+    float: right;
+    width: 50%;
+}
+
+.txt-w {
+    
+}
+
+/*** flex boxes **/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
