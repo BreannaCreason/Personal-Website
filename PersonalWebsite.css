@@ -8,33 +8,34 @@ body {
 
 /*** Navigation Bar **/
 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
+    list-style-type: none;
+    position: fixed;
+    margin :0 0 2% 0;
+    padding:15px 0 15px 0;
+    width: 100%;
+    background: #000000;
+    border : 1px solid black ;
+    top:0;
+    left: 0;
+    color: white;
 }
-
-li {
-    float: left;
-}
-
-li a{
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px 10px;
-    text-transform: none;
-}
-
-li a:hover {
-    background-color: #9d2828;
-}
-
-.port-nav {
+ ul li{
+    display: inline-block;
+    border :1px solid #000000;
+    margin: 0 2% 0 2%;
     
 }
 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.clear:after{
+    clear:both;
+    content: "";
+    display: table;
+}
 /*** Pictures **/
 .art {
     float: left;
@@ -85,16 +86,42 @@ li a:hover {
     width: 
 }
 
+.ttobp {
+    float: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 25%;
+    height: 25%;
+}
+
 /*** Text **/
+.bmc {
+    width: 35%; 
+    font-family: 'Yatra One', cursive;
+    font-size: 29px;
+    
+}
+
 .txt-r {
     padding-left: 10%;
     padding-right: 10%;
     float: right;
     width: 50%;
+    font-family: 'Jura', sans-serif;
 }
 
-.txt-w {
-    
+.txt-l{
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+    width: 50%;
+    font-family: 'Jura', sans-serif;
+}
+
+.titles {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    padding-top: 5;
 }
 
 /*** flex boxes **/
